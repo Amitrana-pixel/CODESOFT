@@ -1,119 +1,114 @@
-🌸 Iris Flower Classification Using Machine Learning
+### 🚢 Task 1: Titanic Survival Prediction
 
-📖 Project Overview
-This project focuses on classifying Iris flowers into different species using Machine Learning techniques. By analyzing flower measurements such as sepal length, sepal width, petal length, and petal width, the model accurately predicts the species of an Iris flower.
+Predicts whether a passenger survived the Titanic disaster based on passenger information.
 
-The project demonstrates a complete Machine Learning workflow including data preprocessing, exploratory data analysis (EDA), visualization, model training, evaluation, and prediction.
+**Algorithms Used**
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
 
-🎯 Objectives
-Analyze the Iris flower dataset
-Understand relationships between flower features
-Perform data cleaning and preprocessing
-Conduct Exploratory Data Analysis (EDA)
-Build multiple classification models
-Compare model performances
-Predict flower species accurately
-Extract meaningful insights from data
-📊 Dataset
-The dataset contains measurements of Iris flowers belonging to three species.
+**Dataset**
+- Titanic Dataset
 
-Features Include:
-Sepal Length
-Sepal Width
-Petal Length
-Petal Width
-Species
-Target Classes
-Iris Setosa
-Iris Versicolor
-Iris Virginica
-Dataset Source
-Iris Flower Dataset (Kaggle)
+---
 
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-Learn
-Jupyter Notebook / Google Colab
-📈 Exploratory Data Analysis (EDA)
-The following analyses were performed:
+### 🎬 Task 2: Movie Rating Prediction
+Predicts movie ratings using features such as genre, director, actors, and other movie-related attributes.
 
-Dataset Exploration
-Dataset Shape
-Column Information
-Missing Value Analysis
-Statistical Summary
-Data Visualization
-Species Distribution
-Pairplot Analysis
-Feature Histograms
-Boxplot Analysis
-Correlation Heatmap
-⚙️ Data Preprocessing
-The following preprocessing techniques were applied:
+**Algorithms Used**
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
 
-Handling Missing Values
-Label Encoding
-Feature Selection
-Train-Test Split
-🔧 Feature Engineering
-Additional analysis was performed to identify the most influential features for classification.
+**Dataset**
+- IMDb Movies India Dataset
 
-Feature Analysis
-Sepal Measurements
-Petal Measurements
-Species Distribution Patterns
-Correlation Analysis
-🤖 Machine Learning Models
-The following classification models were implemented:
+---
 
-Logistic Regression
-A statistical classification model used as a baseline model.
+### 🌸 Task 3: Iris Flower Classification
+Classifies Iris flowers into three species based on their measurements.
 
-Decision Tree Classifier
-A tree-based machine learning algorithm for classification.
+**Algorithms Used**
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
 
-Random Forest Classifier
-An ensemble learning method that combines multiple decision trees for improved performance.
+**Dataset**
+- Iris Dataset
 
-📊 Model Evaluation
-Models were evaluated using:
+---
 
-Accuracy Score
-Confusion Matrix
-Classification Report
-Model Comparison
-🏆 Model Comparison
-Performance of multiple classification algorithms was compared to identify the best-performing model.
+## 🛠️ Technologies Used
 
-Models Compared:
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
 
-Logistic Regression
-Decision Tree
-Random Forest
-📈 Feature Importance Analysis
-Feature importance was analyzed to understand which flower measurements contribute most to species classification.
+---
 
-Key Influencing Features
-Petal Length
-Petal Width
-Sepal Length
-Sepal Width
-🔍 Sample Prediction
-Example Input:
+## 📂 Repository Structure
 
-Sepal Length = 5.1
-Sepal Width = 3.5
-Petal Length = 1.4
-Petal Width = 0.2
-Example Output:
+```
+CODESOFT/
+│
+├── Titanic_Survival_Prediction.ipynb
+├── Movie_Rating_Prediction.ipynb
+├── Iris_Flower_Classification.ipynb
+└── README.md
+```
 
-Iris Setosa
-💡 Key Insights
-Petal features are the strongest predictors of flower species.
-Iris Setosa is the easiest species to classify.
-Machine Learning models achieve very high accuracy on the Iris dataset.
-Feature importance analysis provides valuable biological insights.
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/CODESOFT.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd CODESOFT
+```
+
+3. Install the required libraries
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
+```
+
+4. Open the notebooks
+
+```bash
+jupyter notebook
+```
+
+---
+
+## 📊 Results
+
+| Project | Best Model |
+|---------|------------|
+| Titanic Survival Prediction | Logistic Regression |
+| Movie Rating Prediction | Linear Regression |
+| Iris Flower Classification | Logistic Regression |
+
+---
+
+## 📧 Author
+
+**Amit Kumar**
+
+GitHub: https://github.com/Amitrana-pixel
+
+---
+
+## ⭐ Acknowledgements
+
+This repository was created as part of the **CODESOFT Machine Learning Internship Program**.
